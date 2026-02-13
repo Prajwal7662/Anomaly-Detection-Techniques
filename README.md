@@ -4,6 +4,8 @@
 
 This project demonstrates different unsupervised anomaly detection techniques using Python and Scikit-learn.
 
+---
+
 📌 Algorithms Implemented
 
 ---
