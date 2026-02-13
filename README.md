@@ -91,11 +91,12 @@ Scikit-learn
 Matplotlib
 
 📊 Comparison Summary
-Algorithm	Type	Best For	Speed
-Isolation Forest	Tree-based	Large datasets	Fast
-DBSCAN	Density-based	Spatial data	Medium
-LOF	Density-based	Local anomalies	Medium
-🚀 How to Run
+| Algorithm        | Type          | Best For        | Speed  |
+| ---------------- | ------------- | --------------- | ------ |
+| Isolation Forest | Tree-based    | Large datasets  | Fast   |
+| DBSCAN           | Density-based | Spatial data    | Medium |
+| LOF              | Density-based | Local anomalies | Medium |
+
 pip install numpy pandas scikit-learn matplotlib
 
 
