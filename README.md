@@ -22,6 +22,8 @@ Local Outlier Factor (LOF)
 
 🔹 Description
 
+---
+
 Isolation Forest is a tree-based anomaly detection algorithm that isolates anomalies instead of profiling normal data points.
 
 It works on the principle that anomalies are:
@@ -63,6 +65,8 @@ Handles high-dimensional data
 
 🔹 Description
 
+---
+
 DBSCAN is a density-based clustering algorithm. Points that do not belong to any cluster are classified as noise and treated as anomalies.
 
 🔹 Key Parameters
@@ -72,6 +76,8 @@ DBSCAN is a density-based clustering algorithm. Points that do not belong to any
 eps
 
 min_samples
+
+---
 
 🔹 Advantages
 
@@ -93,6 +99,8 @@ No need to specify number of clusters
 
 Local Outlier Factor detects anomalies by comparing the local density of a data point with its neighbors.
 
+---
+
 🔹 LOF Score Interpretation
 
 ---
@@ -103,9 +111,15 @@ Local Outlier Factor detects anomalies by comparing the local density of a data 
 
 1 → Strong anomaly
 
+---
+
 🔹 Key Parameter
 
+---
+
 n_neighbors
+
+--- 
 
 🛠️ Technologies Used
 
@@ -120,6 +134,8 @@ Pandas
 Scikit-learn
 
 Matplotlib
+
+---
 
 📊 Comparison Summary
 
@@ -139,6 +155,8 @@ Run the Jupyter Notebook:
 
 jupyter notebook Anomaly_Detection.ipynb
 
+---                   
+
 🎯 Applications
 
 ---
@@ -150,6 +168,8 @@ Network intrusion detection
 Manufacturing fault detection
 
 Medical anomaly detection
+
+---
 
 📌 Conclusion
 
